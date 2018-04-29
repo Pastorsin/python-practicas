@@ -1,5 +1,5 @@
 import json
-archivo = open("jugadores2.txt","w")
+archivo = open("fjugadores2.txt","w")
 listaDicc = []
 dicc = {}
 for x in range(3):
@@ -13,6 +13,6 @@ json.dump(listaDicc,archivo)
 archivo.close()
 
 ##
-archivo = open("jugadores2.txt","r")
+archivo = open("fjugadores2.txt","r")
 print(json.dumps(json.load(archivo), sort_keys=True, indent=4))
 archivo.close()

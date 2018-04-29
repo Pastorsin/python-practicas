@@ -3,8 +3,8 @@ from pattern.es import tag
 from pattern.es import conjugate
 from pattern.es import INFINITIVE
 
-archivo = open("texto", "r")
-verbos = open("verbos.json", "w")
+archivo = open("ftexto", "r")
+verbos = open("fverbos.json", "w")
 dicc = {}
 listaVerbos = []
 # Almaceno todos los verbos

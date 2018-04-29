@@ -1,6 +1,6 @@
 import random;
-colores = list(open("colores","r"))
-coordenadas = list(open("coord","r"))
+colores = list(open("fcolores","r"))
+coordenadas = list(open("fcoord","r"))
 dicc = {}
 
 for i in range(0,len(coordenadas),2):
