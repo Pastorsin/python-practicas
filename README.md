@@ -45,7 +45,7 @@ imagen; en dicho caso deberá volver a ingresarla.
 ### Parte II: Encontramos errores
 
 1. Corrija los errores de los siguientes códigos:
-    ```
+    ``` python
     puntaje = {}
     puntaje[30] = 'Ada'
     puntaje[40] = 'Hedy Lammar'
@@ -55,14 +55,14 @@ imagen; en dicho caso deberá volver a ingresarla.
        print ('{} puntaje {}'. **format** (nombre, puntaje))
     ```
 2. Usando el mismo diccionario del ejercicio anterior, ejecutar:
-    ```
+    ``` python
     for puntaje in puntaje.keys():
        print (puntaje)
     for cada in sorted (puntaje,reverse=True):
        print (puntaje[cada],cada)
     ```
 3. ¿Qué sucede con el siguiente código?
-    ```
+    ``` python
     lista1 = ['perro', 4, True, (6,7)]
     lista2 = [False, 'casa', 9, [3, 4, 'gato']]
     lista3 = []
@@ -73,7 +73,7 @@ imagen; en dicho caso deberá volver a ingresarla.
     print (lista3)
     ```
 4. Resuelva el problema:
-    ```
+    ``` python
     bb = ['Si', 'mucho', 'con', 'computadoras,', 'eventualmente', 'que', 'te']
     for each in bb
        print ( **len** (each))
@@ -158,7 +158,7 @@ asociar las coordenadas con el color debe ser aleatoria sin que se repitan los c
 2. Dado el archivo utilizado con datos de jugadores del Ejercicio 3 de la Práctica 3, implemente una función que reciba el nombre del archivo como parámetro y maneje con excepciones el caso que el archivo no exista, informando dicha situación.
 
 3. Una manera de evitar problemas con la versión de Python para el ingreso de datos por teclado es definiendo la siguiente función:
-    ```
+    ``` python
     def ingresar(texto):
           import sys
           if sys.version > '3':
