@@ -9,7 +9,7 @@ Ejercicios realizados de las pŕacticas del Seminario de Lenguajes de Python UNL
 # [Práctica 1 - 2018](https://github.com/Pastorsin/Python-Practicas/tree/master/Practica1)
 
 ### Parte I: Conceptos Básicos
-  [1.](https://github.com/Pastorsin/Python-Practicas/tree/master/Practica1/ej01.py) Dado el siguiente string, generar una lista donde cada elemento sea una palabra, utilizando el espacio (‘ ‘) como separador:<br>**frase** = *"Si trabajás mucho con computadoras, eventualmente encontrarás que te gustaría automatizar alguna tarea. Por ejemplo, podrías desear realizar una búsqueda y reemplazo en un gran número de archivos de texto, o renombrar y reorganizar un montón de archivos con fotos de una manera compleja. Tal vez quieras escribir alguna pequeña base de datos personalizada, o una aplicación especializada con interfaz gráfica, o un juego simple."*
+  1. Dado el siguiente string, generar una lista donde cada elemento sea una palabra, utilizando el espacio (‘ ‘) como separador:<br>**frase** = *"Si trabajás mucho con computadoras, eventualmente encontrarás que te gustaría automatizar alguna tarea. Por ejemplo, podrías desear realizar una búsqueda y reemplazo en un gran número de archivos de texto, o renombrar y reorganizar un montón de archivos con fotos de una manera compleja. Tal vez quieras escribir alguna pequeña base de datos personalizada, o una aplicación especializada con interfaz gráfica, o un juego simple."*
   
 2. Dada una frase y un string ingresados por teclado (en ese orden), genere una lista de palabras (separadas por ’ ’), y sobre ella, informe la cantidad de palabras en las que se encuentra el string. No importan las mayúsculas y minúsculas.
 
