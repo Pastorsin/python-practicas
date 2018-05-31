@@ -6,7 +6,7 @@ Ejercicios realizados de las pŕacticas del Seminario de Lenguajes de Python UNL
 
 
 
-# Práctica 1 - 2018
+# [Práctica 1 - 2018](https://github.com/Pastorsin/Python-Practicas/tree/master/Practica1)
 
 ### Parte I: Conceptos Básicos
   1. Dado el siguiente string, generar una lista donde cada elemento sea una palabra, utilizando el espacio (‘ ‘) como separador:<br>**frase** = *"Si trabajás mucho con computadoras, eventualmente encontrarás que te gustaría automatizar alguna tarea. Por ejemplo, podrías desear realizar una búsqueda y reemplazo en un gran número de archivos de texto, o renombrar y reorganizar un montón de archivos con fotos de una manera compleja. Tal vez quieras escribir alguna pequeña base de datos personalizada, o una aplicación especializada con interfaz gráfica, o un juego simple."*
@@ -45,7 +45,7 @@ imagen; en dicho caso deberá volver a ingresarla.
 ### Parte II: Encontramos errores
 
 1. Corrija los errores de los siguientes códigos:
-    ```
+    ``` python
     puntaje = {}
     puntaje[30] = 'Ada'
     puntaje[40] = 'Hedy Lammar'
@@ -55,14 +55,14 @@ imagen; en dicho caso deberá volver a ingresarla.
        print ('{} puntaje {}'. **format** (nombre, puntaje))
     ```
 2. Usando el mismo diccionario del ejercicio anterior, ejecutar:
-    ```
+    ``` python
     for puntaje in puntaje.keys():
        print (puntaje)
     for cada in sorted (puntaje,reverse=True):
        print (puntaje[cada],cada)
     ```
 3. ¿Qué sucede con el siguiente código?
-    ```
+    ``` python
     lista1 = ['perro', 4, True, (6,7)]
     lista2 = [False, 'casa', 9, [3, 4, 'gato']]
     lista3 = []
@@ -73,7 +73,7 @@ imagen; en dicho caso deberá volver a ingresarla.
     print (lista3)
     ```
 4. Resuelva el problema:
-    ```
+    ``` python
     bb = ['Si', 'mucho', 'con', 'computadoras,', 'eventualmente', 'que', 'te']
     for each in bb
        print ( **len** (each))
@@ -84,7 +84,7 @@ imagen; en dicho caso deberá volver a ingresarla.
 
 
 
-# Práctica 2 - 2018
+# [Práctica 2 - 2018](https://github.com/Pastorsin/Python-Practicas/tree/master/Practica2)
 
 *En esta práctica vamos a trabajar con el módulo pattern.es que permite trabajar con el
 análisis sintáctico del idioma.
@@ -135,7 +135,7 @@ asociar las coordenadas con el color debe ser aleatoria sin que se repitan los c
       poseer 2
       ```
       
-# Práctica 3 - 2018
+# [Práctica 3 - 2018](https://github.com/Pastorsin/Python-Practicas/tree/master/Practica3)
 
 1. Generar la misma estructura del Ejercicio 1 de la Práctica 2 pero ahora teniendo en cuenta que las coordenadas y los colores se encuentran en 2 archivos diferentes de texto plano donde cada elemento se encuentra en una línea. Luego imprima los elementos de la estructura alineados a la derecha de la pantalla.
 
@@ -149,7 +149,7 @@ asociar las coordenadas con el color debe ser aleatoria sin que se repitan los c
 
 6. Implementar una función que reciba el nombre de un archivo en formato CSV y lo exporte a formato JSON. Probarla con el archivo del ejercicio anterior.
 
-# Práctica 4 - 2018
+# [Práctica 4 - 2018](https://github.com/Pastorsin/Python-Practicas/tree/master/Practica4)
 
 ### Excepciones
 
@@ -158,7 +158,7 @@ asociar las coordenadas con el color debe ser aleatoria sin que se repitan los c
 2. Dado el archivo utilizado con datos de jugadores del Ejercicio 3 de la Práctica 3, implemente una función que reciba el nombre del archivo como parámetro y maneje con excepciones el caso que el archivo no exista, informando dicha situación.
 
 3. Una manera de evitar problemas con la versión de Python para el ingreso de datos por teclado es definiendo la siguiente función:
-    ```
+    ``` python
     def ingresar(texto):
           import sys
           if sys.version > '3':
