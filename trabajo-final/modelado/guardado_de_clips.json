@@ -1,0 +1,15 @@
+{
+    "username": [{
+        "clip": "nombre del clip",
+        "imagenes":[{
+            "nombre": "nombre de la imagen",
+            "duracion": "duracion de la imagen",
+            "sonido": "sonido de la imagen"
+        }],
+        "musica": {
+            "ruta": "ruta de la música elegida",
+            "loop": "si desea volver a reproducir"
+        },
+        "fecha": "ultima modificación",
+    }]
+}

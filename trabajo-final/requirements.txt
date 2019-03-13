@@ -1,0 +1,2 @@
+pygame
+-e "git://github.com/clips/pattern.git@development#egg=pattern"

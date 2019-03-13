@@ -2,8 +2,12 @@
 Ejercicios realizados de las pŕacticas del Seminario de Lenguajes de Python UNLP 2018
 
 
+# Instalación de Pattern
 
-
+1. <b>Asegurese de tener mysqclient</b>
+    <br>``` apt-get install libmysqlclient-dev``` 
+2. <b>Instale las dependencias:</b>
+    <br>``` pip3 install -r requirements.txt```
 
 
 # [Práctica 1 - 2018](https://github.com/Pastorsin/Python-Practicas/tree/master/Practica1)
